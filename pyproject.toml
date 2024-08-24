@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "client-bank-term-deposit-ml-"
+version = "0.1.0"
+description = "Libraries used"
+authors = ["Josh Nolan"]
+readme = "README.md"
+packages = [{include = "client_bank_term_deposit_ml_"}]
+
+[tool.poetry.dependencies]
+python = "^3.10.14"
+pandas = "^2.2.2"
+matplotlib = "^3.9.2"
+seaborn = "^0.13.2"
+numpy = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
